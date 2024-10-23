@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+
+body {
+  background-color:#fffcf2;
+  font-family: "Noto Sans Mono", monospace;
+  width: 100%;
+  touch-action: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p::selection, a::selection, button::selection {
+  background: #000;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+p::selection {
+  color: #fff;
+ }
+
+
+ .mono-bold {
+  font-family: "Noto Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.mono-semibold {
+  font-family: "Noto Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.mono-normal {
+  font-family: "Noto Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.__react_modal_image__header {
+
+  background-color: rgba(0, 0, 0, 0.0) !important;
+  padding: 10px;
+}
+.__react_modal_image__modal_content {
+}
+
+
+.__react_modal_image__modal_content img, 
+  .__react_modal_image__modal_content svg {
+    padding: 100px !important;
+    background-color: transparent;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
