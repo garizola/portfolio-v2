@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
 
-html{
-  scroll-behavior: smooth;
+html {
+  overflow-y:auto
 }
 
 body {
   background-color:#fffcf2;
   font-family: "Noto Sans Mono", monospace;
   width: 100%;
-  touch-action: none;
+  overflow-y:auto
 }
 
 p::selection, a::selection, button::selection {

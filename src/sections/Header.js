@@ -5,7 +5,7 @@ import DateTime from "../components/DateTime";
 
 const Header = () => {
   return (
-    <div className=" h-[70vh] sm:pt-8 pt-0">
+    <div className=" sm:h-[70vh] h-[80vh] sm:pt-8 pt-0">
       <div className="flex flex-col-reverse sm:flex-row w-full h-auto justify-between items-center sm:pb-2 pb-0">
         <Name />
         <DateTime />
