@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   background-color:#fffcf2;
   font-family: "Noto Sans Mono", monospace;
@@ -59,3 +63,16 @@ p::selection {
     background-color: transparent;
   }
 
+
+
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .loading-text {
+    font-size: 24px;
+    font-weight: bold;
+  }
