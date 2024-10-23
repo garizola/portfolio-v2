@@ -3,6 +3,7 @@ import "./index.css";
 import Header from "./sections/Header";
 import Projects from "./sections/Projects";
 import Footer from "./sections/Footer";
+import React from "react";
 
 function App() {
   return (

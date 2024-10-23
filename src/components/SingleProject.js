@@ -13,7 +13,8 @@ const SingleProject = ({ project }) => {
         >
           <img
             src={project.img}
-            className="aspect-video m-auto border-2 border-black hover:border-gray-400 hover:border-[5px]"
+            className="aspect-video m-auto border-2 border-black hover:border-gray-300 hover:border-[5px] hover:drop-shadow-lg"
+            alt={project.alt}
           />
         </a>
       </div>

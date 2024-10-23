@@ -9,8 +9,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <AnimatedCursor
-      innerSize={15}
-      outerSize={40}
+      innerSize={10}
+      outerSize={35}
       innerScale={1}
       outerScale={2}
       outerAlpha={0}

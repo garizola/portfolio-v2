@@ -15,9 +15,9 @@ const Description = () => {
           className="text-green-500 hover:italic hover:text-green-700"
           onClick={handleLightbox}
         >
-          I'm
+          I'm&nbsp;
         </button>
-        &nbsp;developer based in the
+        developer based in the
         <a
           href="https://en.wikipedia.org/wiki/Midwestern_United_States"
           className="text-yellow-400 hover:italic hover:text-yellow-500"
@@ -36,7 +36,7 @@ const Description = () => {
         >
           &nbsp;GitHub
         </a>
-        . I graduated in May with two degrees one in Web Development and the
+        . I graduated in May with two degrees. One in Web Development and the
         other in Informatics. My most recent position was for
         <a
           href="https://hudl.com"
@@ -46,11 +46,10 @@ const Description = () => {
         >
           &nbsp;Hudl&nbsp;
         </a>
-        as a Web Development Intern. In my freetime I enjoy collecting, getting
-        outdoors, and working with nflfastr to identify trends in the NFL. I am
-        passionate about expanding my skills and experimenting with anything I
-        can. If you'd like to work with me or just want to converse, feel free
-        to
+        as a Web Development Intern. In my freetime I enjoy collecting, being
+        outdoors, and working on side projects. I am passionate about expanding
+        my skills and experimenting with anything I can. If you'd like to work
+        with me or just want to converse, feel free to
         <a
           href="https://contact-giovanni.vercel.app/"
           className="text-red-400 hover:italic hover:text-red-600"
@@ -59,7 +58,7 @@ const Description = () => {
         >
           &nbsp;email&nbsp;me&nbsp;
         </a>
-        or reach out to on
+        or connect with me on
         <a
           href="https://www.linkedin.com/in/giovanniarizola/"
           className="text-blue-400 hover:italic hover:text-blue-600"

@@ -19,6 +19,7 @@ const projects = [
     description: "",
     stack: " Custom Craft CMS, Tailwind",
     img: "https://firebasestorage.googleapis.com/v0/b/ga-storage.appspot.com/o/project-images%2Ffan_solutions_sr.gif?alt=media&token=f5b63864-0671-42f6-8ef5-b0b0a49acd81",
+    alt: "Hudl Fan Solutions Landing Page",
     livePreview: "https://www.hudl.com/solutions/fan",
   },
   {
@@ -27,6 +28,7 @@ const projects = [
     description: "",
     stack: " React, Tailwind, Rails, Postgres",
     img: "https://firebasestorage.googleapis.com/v0/b/ga-storage.appspot.com/o/project-images%2FScreenshot%202024-10-22%20at%2010.33.15%E2%80%AFPM.png?alt=media&token=ee8c19f9-927d-4a46-857e-bd5d705f4e61",
+    alt: "Speak in Silence Landing Page",
     livePreview: "https://speak-in-silence.netlify.app/",
   },
   {
@@ -35,6 +37,7 @@ const projects = [
     description: "",
     stack: " React, Firebase Auth, Firestore",
     img: "https://firebasestorage.googleapis.com/v0/b/ga-storage.appspot.com/o/project-images%2FScreenshot%202024-04-26%20at%2011.23.12%E2%80%AFAM.png?alt=media&token=18815823-c9c6-4ae8-9139-7178895d2725",
+    alt: "Dormee Landing Page",
     sourceCode: "https://github.com/garizola/n423-final",
     livePreview: "https://dormee.netlify.app/",
   },
@@ -46,6 +49,7 @@ const projects = [
       "This application empowers users to effortlessly search for exercises by specifying a body part, a specific exercise, or a target muscle group, enabling them to discover a variety of similar workouts. Upon selecting an exercise, users are presented with curated YouTube tutorials, offering step-by-step guidance for each selected workout.",
     img: "https://firebasestorage.googleapis.com/v0/b/ga-storage.appspot.com/o/project-images%2FomegaFitness2024.png?alt=media&token=e07c9e1d-ccde-4f2b-802e-ee66249fdc53",
     stack: " React, Axios w/ public APIs, Material UI",
+    alt: "Omega Fitness Landing Page",
     sourceCode:
       "https://github.com/garizola/omega-fitness-react#react-fitness-app",
     livePreview: "https://omegafitness.netlify.app/",

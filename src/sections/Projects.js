@@ -12,7 +12,7 @@ const Projects = () => {
           <SingleProject key={uuid()} project={project} />
         ))}
       </div>
-      <p className="font-base text-sm mt-4 font-semibold">
+      <p className="font-base text-sm mt-6 font-semibold">
         Check out my
         <a
           href="https://github.com/garizola"
@@ -22,7 +22,7 @@ const Projects = () => {
         >
           &nbsp;GitHub&nbsp;
         </a>
-        for more!
+        for other projects. More cool stuff coming soon.
       </p>
     </div>
   );
