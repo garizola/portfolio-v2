@@ -17,16 +17,16 @@ const Description = () => {
         >
           I'm&nbsp;
         </button>
-        developer based in the
+        a developer based in the
         <a
           href="https://en.wikipedia.org/wiki/Midwestern_United_States"
           className="text-yellow-400 hover:italic hover:text-yellow-500"
           target="_blank"
           rel="noreferrer"
         >
-          &nbsp;Midwest&nbsp;
+          &nbsp;Midwest
         </a>
-        who specializes in building user interfaces. I also enjoy dabbling in
+        , specializing in building user interfaces. I also enjoy dabbling in
         backend/API development. You can see most of my work on my
         <a
           href="https://github.com/garizola"
@@ -36,20 +36,21 @@ const Description = () => {
         >
           &nbsp;GitHub
         </a>
-        . I graduated in May with two degrees. One in Web Development and the
-        other in Informatics. My most recent position was for
+        . I recently graduated in May with two degrees: one in Web Development
+        and the other in Informatics. My most recent position was as a Web
+        Development Intern at
         <a
           href="https://hudl.com"
           className="text-orange-400 hover:italic hover:text-orange-600"
           target="_blank"
           rel="noreferrer"
         >
-          &nbsp;Hudl&nbsp;
+          &nbsp;Hudl
         </a>
-        as a Web Development Intern. In my freetime I enjoy collecting, being
-        outdoors, and working on side projects. I am passionate about expanding
-        my skills and experimenting with anything I can. If you'd like to work
-        with me or just want to converse, feel free to
+        . In my freetime, I enjoy collecting, being outdoors, and working on
+        side projects. I am passionate about expanding my skills and
+        experimenting with anything I can. If you'd like to collaborate or just
+        want to chat, feel free to
         <a
           href="https://contact-giovanni.vercel.app/"
           className="text-red-400 hover:italic hover:text-red-600"
