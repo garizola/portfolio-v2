@@ -11,12 +11,12 @@ body {
   overflow-y:auto
 }
 
-p::selection, a::selection, button::selection {
+p::selection, a::selection, button::selection, h1::selection, img::selection, h2::selection, h3::selection, h4::selection, span::selection {
   background: #000;
   
 }
 
-p::selection {
+p::selection, a::selection, button::selection, img::selection, h1::selection, h2::selection, h3::selection, h4::selection, span::selection{
   color: #fff;
  }
 
