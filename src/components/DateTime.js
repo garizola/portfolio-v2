@@ -11,7 +11,7 @@ const DateTime = () => {
   }, []);
 
   return (
-    <div className="flex gap-4 text-sm font-extrabold ">
+    <div className="flex gap-4 text-sm font-base ">
       <p>{date.toLocaleDateString()}</p>
       <p>{date.toLocaleTimeString("en-GB")}</p>
     </div>

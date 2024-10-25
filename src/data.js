@@ -12,6 +12,19 @@ const header = {
   },
 };
 
+const bucksblog = {
+  name: "The Bucks Report",
+  number: 5,
+  description:
+    "This application empowers users to effortlessly search for exercises by specifying a body part, a specific exercise, or a target muscle group, enabling them to discover a variety of similar workouts. Upon selecting an exercise, users are presented with curated YouTube tutorials, offering step-by-step guidance for each selected workout.",
+  img: "https://firebasestorage.googleapis.com/v0/b/ga-storage.appspot.com/o/project-images%2FScreenshot%202024-10-23%20at%201.27.14%E2%80%AFPM.webp?alt=media&token=2f98dc15-320b-41e8-8e8d-1fa03b9c48ec",
+  // img: "../public/compressed/omega.webp",
+  stack: "Astro w/ MDX pages, articles by me",
+  alt: "Omega Fitness Landing Page",
+  sourceCode: "https://github.com/garizola/the-bucks-report",
+  livePreview: "https://bucks-report.netlify.app/",
+};
+
 const projects = [
   {
     name: "Hudl Landing Page Example",
@@ -57,6 +70,7 @@ const projects = [
       "https://github.com/garizola/omega-fitness-react#react-fitness-app",
     livePreview: "https://omegafitness.netlify.app/",
   },
+
   // {
   //   name: "Organized Messaging App",
   //   number: 4,
@@ -69,4 +83,4 @@ const projects = [
   // },
 ];
 
-export { header, projects };
+export { header, projects, bucksblog };

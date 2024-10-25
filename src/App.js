@@ -7,9 +7,11 @@ import React from "react";
 
 function App() {
   return (
-    <div className="sm:p-6 p-4 sm:mt-0 mt-2 max-w-[1200px] m-auto cursor-none min-h-[100vh]">
-      <Header />
-      <Projects />
+    <div className="sm:p-6 p-4 sm:mt-0 mt-2 max-w-[900px] m-auto cursor-none min-h-[100vh] flex flex-col justify-between ">
+      <div>
+        <Header />
+        <Projects />
+      </div>
       <Footer />
     </div>
   );

@@ -5,14 +5,14 @@ import { IoMdMail } from "react-icons/io";
 
 const Footer = () => {
   return (
-    <div className="mt-[33vh] w-full flex justify-between font-semibold">
+    <div className="pt-[20px] w-full flex justify-between text-xs sm:text-base font-base">
       <div className="flex gap-3">
         {/* <p className="font-bold">2024</p> */}
         <p>Giovanni Arizola</p>
       </div>
       <a
         href="https://give-me-feedback.netlify.app/"
-        className=" text-green-500 hover:text-green-600 hover:italic"
+        className=" text-[#98c379] hover:italic hover:font-bold"
         target="_blank"
         rel="noreferrer"
       >
@@ -21,7 +21,7 @@ const Footer = () => {
       <div className="flex gap-3 text-lg">
         <a
           href="https://github.com/garizola"
-          className="text-purple-400 hover:text-purple-700"
+          className="text-[#c678dd] hover:text-purple-300"
           target="_blank"
           rel="noreferrer"
         >
@@ -29,7 +29,7 @@ const Footer = () => {
         </a>
         <a
           href="https://www.linkedin.com/in/giovanniarizola/"
-          className="text-blue-400 hover:text-blue-600"
+          className="text-[#61afef] hover:text-blue-300"
           target="_blank"
           rel="noreferrer"
         >

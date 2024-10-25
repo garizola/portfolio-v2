@@ -5,10 +5,12 @@ html {
 }
 
 body {
-  background-color:#fffcf2;
+  background-color: #282c34;
   font-family: "Noto Sans Mono", monospace;
   width: 100%;
-  overflow-y:auto
+  overflow-y:auto;
+  /* color: rgb(175, 175, 175);  */
+  color: #abb2bf;
 }
 
 p::selection, a::selection, button::selection, h1::selection, img::selection, h2::selection, h3::selection, h4::selection, span::selection {
