@@ -10,9 +10,9 @@ const Description = () => {
   };
   return (
     <div>
-      <p className="text-justify font-semibold text-sm mt-2">
+      <p className="text-justify font-base sm:text-sm text-xs mt-2 sm:leading-4.5 leading-4.25">
         <button
-          className="text-green-500 hover:italic hover:text-green-700"
+          className="text-[#98c379] hover:italic hover:font-bold "
           onClick={handleLightbox}
         >
           I'm&nbsp;
@@ -20,7 +20,7 @@ const Description = () => {
         a developer based in the
         <a
           href="https://en.wikipedia.org/wiki/Midwestern_United_States"
-          className="text-yellow-400 hover:italic hover:text-yellow-500"
+          className="text-[#e5c07b] hover:italic hover:font-bold"
           target="_blank"
           rel="noreferrer"
         >
@@ -30,7 +30,7 @@ const Description = () => {
         backend/API development. You can see most of my work on my
         <a
           href="https://github.com/garizola"
-          className="text-purple-400 hover:italic hover:text-purple-700"
+          className="text-[#c678dd] hover:italic hover:font-bold"
           target="_blank"
           rel="noreferrer"
         >
@@ -41,7 +41,7 @@ const Description = () => {
         Development Intern at
         <a
           href="https://hudl.com"
-          className="text-orange-400 hover:italic hover:text-orange-600"
+          className="text-orange-400 hover:italic hover:font-bold"
           target="_blank"
           rel="noreferrer"
         >
@@ -53,7 +53,7 @@ const Description = () => {
         want to chat, feel free to
         <a
           href="https://contact-giovanni.vercel.app/"
-          className="text-red-400 hover:italic hover:text-red-600"
+          className="text-[#e06c75] hover:italic hover:font-bold"
           target="_blank"
           rel="noreferrer"
         >
@@ -62,7 +62,7 @@ const Description = () => {
         or connect with me on
         <a
           href="https://www.linkedin.com/in/giovanniarizola/"
-          className="text-blue-400 hover:italic hover:text-blue-600"
+          className="text-[#61afef] hover:italic hover:font-bold"
           target="_blank"
           rel="noreferrer"
         >

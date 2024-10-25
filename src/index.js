@@ -17,11 +17,11 @@ root.render(
       showSystemCursor={false}
       hasBlendMode={true}
       outerStyle={{
-        border: "3px solid #000",
+        border: "3px solid #eee",
         zIndex: "1000000",
       }}
       innerStyle={{
-        backgroundColor: "#000",
+        backgroundColor: "#eee",
         zIndex: "1000000",
       }}
       trailingSpeed={8}

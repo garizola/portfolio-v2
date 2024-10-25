@@ -1,29 +1,31 @@
 import React from "react";
+import { MdArrowOutward } from "react-icons/md";
+import { FaGithub } from "react-icons/fa";
 
 const SingleProject = ({ project }) => {
   return (
-    <div className="p-2 px-4 border-2 border-black ">
-      <span className="font-bold">{project.number}</span>
-      <div className="h-fit ">
+    <div className="px-2 py-1 sm:py-2 border  border-[#abb2bf] hover:text-[#56b6c2] hover:border-[#98c379] duration-150 ease-in-out  text-sm sm:text-base w-full ">
+      <a
+        className="flex gap-2 hover:text-[#e5c07b] sm:pb-1 pb-0 hover:italic duration-150 ease-in-out justify-between"
+        href={project.livePreview}
+        target="_blank"
+        rel="noreferrer"
+      >
+        <h4 className="sm:text-base  text-sm font-bold ">{project.name}</h4>
+        <span className="sm:pt-0 pt-1">
+          <MdArrowOutward />
+        </span>
+      </a>
+      <div className="flex text-xs justify-between mt-2 sm:pb-0 pb-1">
+        <p>{project.stack}</p>
         <a
+          href="https://github.com/garizola"
+          className="text-base hover:text-purple-300"
           target="_blank"
           rel="noreferrer"
-          href={project.livePreview}
-          className="flex items-center justify-around p-6"
         >
-          <img
-            src={project.img}
-            className="aspect-video m-auto border-2 border-black hover:border-gray-300 hover:border-[5px] hover:drop-shadow-lg"
-            alt={project.alt}
-          />
+          <FaGithub />
         </a>
-      </div>
-      <div className="sm:flex w-full  items-center">
-        <a href="{project.livePreview}" className="font-bold hover:italic">
-          {project.name}:
-        </a>
-        <span className="sm:inline">&nbsp;</span>
-        <p className="text-sm">{project.stack}</p>
       </div>
     </div>
   );
