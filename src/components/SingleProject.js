@@ -19,7 +19,7 @@ const SingleProject = ({ project }) => {
       <div className="flex text-xs justify-between mt-2 sm:pb-0 pb-1">
         <p>{project.stack}</p>
         <a
-          href="https://github.com/garizola"
+          href={project.sourceCode}
           className="text-base hover:text-purple-300"
           target="_blank"
           rel="noreferrer"

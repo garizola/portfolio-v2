@@ -35,6 +35,7 @@ const projects = [
     // img: "../public/compressed/hudl.webp",
     alt: "Hudl Fan Solutions Landing Page",
     livePreview: "https://www.hudl.com/solutions/fan",
+    sourceCode: "https://github.com/garizola/",
   },
   {
     name: "Speak In Silence (WIP)",
@@ -44,6 +45,7 @@ const projects = [
     img: "https://firebasestorage.googleapis.com/v0/b/ga-storage.appspot.com/o/project-images%2FScreenshot%202024-10-22%20at%2010.33.15%E2%80%AFPM.png?alt=media&token=ee8c19f9-927d-4a46-857e-bd5d705f4e61",
     alt: "Speak in Silence Landing Page",
     livePreview: "https://speak-in-silence.netlify.app/",
+    sourceCode: "https://github.com/garizola/speak-in-silence_frontend",
   },
   {
     name: "Dormee (WIP)",
@@ -53,7 +55,7 @@ const projects = [
     img: "https://firebasestorage.googleapis.com/v0/b/ga-storage.appspot.com/o/project-images%2FScreenshot%202024-10-23%20at%201.34.43%E2%80%AFPM.webp?alt=media&token=e69f4b8f-6f2c-49a6-90af-f60c0ff96e04",
     // img: "../public/compressed/dormee.webp",
     alt: "Dormee Landing Page",
-    sourceCode: "https://github.com/garizola/n423-final",
+    sourceCode: "https://github.com/garizola/",
     livePreview: "https://dormee.netlify.app/",
   },
 
