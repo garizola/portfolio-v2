@@ -2,7 +2,7 @@ import React from "react";
 import { v4 as uuid } from "uuid";
 import SingleProject from "../components/SingleProject";
 import { projects } from "../data";
-import { bucksblog } from "../data";
+import { coSite } from "../data";
 
 const Projects = () => {
   console.log(projects);
@@ -11,7 +11,7 @@ const Projects = () => {
       <h3 className="font-extrabold text-lg sm:mb-4 mb-2">Selected Projects</h3>
       <div className="grid sm:grid-cols-2 sm:grid-rows-2 grid-cols-1 sm:gap-8 gap-2">
         <div className="sm:col-span-2">
-          <SingleProject key={uuid()} project={bucksblog} />
+          <SingleProject key={uuid()} project={coSite} />
         </div>
         {projects.map((project) => (
           <SingleProject key={uuid()} project={project} />

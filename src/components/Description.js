@@ -26,8 +26,8 @@ const Description = () => {
         >
           &nbsp;Midwest
         </a>
-        , specializing in building user interfaces. I also enjoy dabbling in
-        backend/API development. You can see most of my work on my
+        , specializing in building data-driven web application. You can see most
+        of my personal projects on my
         <a
           href="https://github.com/garizola"
           className="text-[#c678dd] hover:italic hover:font-bold"
@@ -36,9 +36,17 @@ const Description = () => {
         >
           &nbsp;GitHub
         </a>
-        . I recently graduated in May with two degrees: one in Web Development
-        and the other in Informatics. My most recent position was as a Web
-        Development Intern at
+        . I graduated in 2024 with two degrees: one in Web Development and the
+        other in Informatics. I currently work as a Web Developer at
+        <a
+          href="https://customwheeloffset.com"
+          className="text-green-400 hover:italic hover:font-bold"
+          target="_blank"
+          rel="noreferrer"
+        >
+          &nbsp;Custom&nbsp;Offsets
+        </a>
+        . Before my current role, I worked was as a Web Development Intern at
         <a
           href="https://hudl.com"
           className="text-orange-400 hover:italic hover:font-bold"
@@ -47,8 +55,8 @@ const Description = () => {
         >
           &nbsp;Hudl
         </a>
-        . In my freetime, I enjoy collecting, being outdoors, and working on
-        side projects. I am passionate about expanding my skills and
+        . In my freetime, I enjoy collecting, being outdoors, CrossFit, and
+        working on side projects. I am passionate about expanding my skills and
         experimenting with anything I can. If you'd like to collaborate or just
         want to chat, feel free to
         <a

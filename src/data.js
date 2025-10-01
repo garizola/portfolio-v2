@@ -12,17 +12,17 @@ const header = {
   },
 };
 
-const bucksblog = {
-  name: "The Bucks Report",
+const coSite = {
+  name: "Custom Offsets",
   number: 5,
   description:
     "This application empowers users to effortlessly search for exercises by specifying a body part, a specific exercise, or a target muscle group, enabling them to discover a variety of similar workouts. Upon selecting an exercise, users are presented with curated YouTube tutorials, offering step-by-step guidance for each selected workout.",
   img: "https://firebasestorage.googleapis.com/v0/b/ga-storage.appspot.com/o/project-images%2FScreenshot%202024-10-23%20at%201.27.14%E2%80%AFPM.webp?alt=media&token=2f98dc15-320b-41e8-8e8d-1fa03b9c48ec",
   // img: "../public/compressed/omega.webp",
-  stack: "Astro w/ MDX pages, articles by me",
-  alt: "Omega Fitness Landing Page",
+  stack: "Laravel, vanilla PHP, JavaScript, jQuery, MySQL, and more",
+  alt: "Custom Offset",
   sourceCode: "https://github.com/garizola/the-bucks-report",
-  livePreview: "https://bucks-report.netlify.app/",
+  livePreview: "https://customwheeloffset.com",
 };
 
 const projects = [
@@ -30,7 +30,7 @@ const projects = [
     name: "Hudl Landing Page Example",
     number: 1,
     description: "",
-    stack: " Custom Craft CMS, Tailwind",
+    stack: " Custom Craft CMS, Tailwind, JavaScript",
     img: "https://firebasestorage.googleapis.com/v0/b/ga-storage.appspot.com/o/project-images%2FScreenshot%202024-10-23%20at%201.34.11%E2%80%AFPM-min.webp?alt=media&token=935ff994-e8a0-4e45-8a57-6c8a12bf785f",
     // img: "../public/compressed/hudl.webp",
     alt: "Hudl Fan Solutions Landing Page",
@@ -72,17 +72,6 @@ const projects = [
       "https://github.com/garizola/omega-fitness-react#react-fitness-app",
     livePreview: "https://omegafitness.netlify.app/",
   },
-
-  // {
-  //   name: "Organized Messaging App",
-  //   number: 4,
-  //   description:
-  //     "A real-time messaging application that enables users to organize conversations by topics, making it effortless to locate specific messages without the need to scroll through endless texts. I am currently enhancing the platform with features that allow users to add friends and engage in private conversations, ensuring a more personalized and secure user\u00a0experience.",
-  //   stack: ["React", "Firebase Auth", "Firestore"],
-  //   img: "https://firebasestorage.googleapis.com/v0/b/ga-storage.appspot.com/o/project-images%2Fn423FinalSS.png?alt=media&token=6588bc33-46db-4eea-9801-41be5fb53ff2",
-  //   sourceCode: "https://github.com/garizola/n423-final",
-  //   livePreview: "https://temp-title.web.app/",
-  // },
 ];
 
-export { header, projects, bucksblog };
+export { header, projects, coSite };
