@@ -26,8 +26,8 @@ const Description = () => {
         >
           &nbsp;Midwest
         </a>
-        , specializing in building data-driven web application. You can see most
-        of my personal projects on my
+        , specializing in building data-driven web applications. You can see
+        most of my personal projects on my personal
         <a
           href="https://github.com/garizola"
           className="text-[#c678dd] hover:italic hover:font-bold"
@@ -46,7 +46,7 @@ const Description = () => {
         >
           &nbsp;Custom&nbsp;Offsets
         </a>
-        . Before my current role, I worked was as a Web Development Intern at
+        . Before my current role, I worked as a Web Development Intern at
         <a
           href="https://hudl.com"
           className="text-orange-400 hover:italic hover:font-bold"
