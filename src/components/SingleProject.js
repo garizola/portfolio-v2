@@ -3,6 +3,8 @@ import { MdArrowOutward } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 
 const SingleProject = ({ project }) => {
+  let showGitHub = project.sourceCode.length > 1 ? "flex" : "hidden";
+  console.log(showGitHub);
   return (
     <div className="px-2 py-1 sm:py-2 border  border-[#abb2bf] hover:text-[#56b6c2] hover:border-[#98c379] duration-150 ease-in-out  text-sm sm:text-base w-full ">
       <a
@@ -16,11 +18,11 @@ const SingleProject = ({ project }) => {
           <MdArrowOutward />
         </span>
       </a>
-      <div className="flex text-xs justify-between mt-2 sm:pb-0 pb-1">
+      <div className={`flex text-xs justify-between mt-2 sm:pb-0 pb-1`}>
         <p>{project.stack}</p>
         <a
           href={project.sourceCode}
-          className="text-base hover:text-purple-300"
+          className={`${showGitHub} text-base hover:text-purple-300`}
           target="_blank"
           rel="noreferrer"
         >
